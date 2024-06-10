@@ -1,0 +1,27 @@
+/**
+ * @file pi0_analysis.h
+ * @brief Header file for definitions of complete variables with relevant cuts.
+ * @author justin.mueller@colostate.edu
+*/
+
+#include "pi0_definitions.h"
+#include "pi0_cuts.h"
+#include "pi0_variables.h"
+
+using namespace ana;
+
+namespace ana
+{
+    // "Simple" variables that attach to a single interaction attribute.
+    VARDLP_RECO(kpi0Mass_all_1muNph_cut,vars::pi0_mass,pi0_cuts::all_1muNph_cut);
+
+    // Define "variables" for binning interactions by some categorical class.
+    DEFINECAT();
+
+    // Define variables that are broadcasted across each selection cut.
+    RCATVAR(kPi0MassPTT, pi0_mass);
+    
+    // Variables for confusion matrix.
+    // To-do
+
+}

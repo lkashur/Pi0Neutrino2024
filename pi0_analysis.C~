@@ -1,0 +1,89 @@
+/**
+ * @file analysis.C
+ * @brief ROOT macro to be used with CAFAna executable to run the selection.
+ * @author justin.mueller@colostate.edu
+*/
+
+#include "pi0_include/analysis.h"
+#include "pi0_include/container.h"
+//#include "pi0_include/csv_maker.h"
+#include "sbnana/CAFAna/Core/Binning.h"
+
+using namespace ana;
+
+/**
+ * The main function of the selection. Creates a container for the CAFAna
+ * Spectrum objects and populates it with a variety of variables that define
+ * the selection.
+ * @return none.
+*/
+void analysis()
+{
+    /**
+     * 1. BNB neutrino (full flux) + out-of-time cosmics (v09_63_01).
+     * 2. BNB in-time cosmics + out-of-time cosmics (v09_63_01).
+    */
+    SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/bnb_nucosmics_v6.flat.root", "spectra_nucosmics.root", 1.253e19, 2.5e20);
+    //SpecContainer spectra("/exp/icarus/data/users/mueller/mlcafs/bnb_intime.flat.root", "spectra_intime.root", 9070*2.05e14, 2.5e20);
+
+    /**
+     * 3. BNB neutrino (full flux) + out-of-time cosmics *     Central Value    * (v09_82_02_01).
+     * 4. BNB neutrino (full flux) + out-of-time cosmics * Coherent Noise +4.5% * (v09_82_02_01).
+     * 5. BNB neutrino (full flux) + out-of-time cosmics *  Elli. Recombination * (v09_82_02_01).
+     * 6. BNB neutrino (full flux) + out-of-time cosmics * Untuned Signal Shape * (v09_82_02_01).
+    */
+    //SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/ml_hdf5/bnb_nu_sys/systematics_cv_v2.flat.root", "spectra_cv.root", -1, 2.5e20);
+    //SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/ml_hdf5/bnb_nu_sys/systematics_tpcnoise_coh_p1_v2.flat.root", "spectra_tpcnoise_coh_p1.root", -1, 2.5e20);
+    //SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/ml_hdf5/bnb_nu_sys/systematics_recombination.flat.root", "spectra_recombination.root", -1, 2.5e20);
+    //SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/ml_hdf5/bnb_nu_sys/systematics_untunedsigshape.flat.root", "spectra_untunedsigshape.root", -1, 2.5e20);
+    
+    /**
+     * 7. BNB neutrino-only (full flux)  *     Central Value    * (v09_82_02_01).
+     * 8. BNB neutrino-only (full flux)  * Coherent Noise +4.5% * (v09_82_02_01).
+     * 9. BNB neutrino-only (full flux)  *  Elli. Recombination * (v09_82_02_01).
+     * 10. BNB neutrino-only (full flux) * Untuned Signal Shape * (v09_82_02_01).
+    */
+    //SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/systematics/sample_cv.flat.root", "spectra_cv.root", -1, 2.5e20);
+    //SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/systematics/sample_cohnoise.flat.root", "spectra_tpcnoise_coh_p1.root", -1, 2.5e20);
+    //SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/systematics/sample_intnoise.flat.root", "spectra_intnoise.root", -1, 2.5e20);
+    //SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/systematics/sample_recombination.flat.root", "spectra_recombination.root", -1, 2.5e20);
+    //SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/systematics/sample_sigshape.flat.root", "spectra_untunedsigshape.root", -1, 2.5e20);
+    
+    /**
+     * 11. MPV/MPR sample (v09_63_00).
+    */
+    //SpecContainer spectra("/exp/icarus/data/users/mueller/mlcafs/mpv_mpr.flat.root", "spectra_mpvmpr.root", 1e19, 2.5e20);
+
+    /**
+     * Spectra (1D) for interactions.
+    */
+    // To-do
+
+    /**
+     * Spectra (2D) for counting selection statistics by interaction categorization (efficiency).
+    */
+    // To-do
+
+    /**
+     * Spectra (2D) for counting selection statistics by interaction categorization (purity).
+    */
+    // To-do
+
+    /**
+     * Spectra (2D) for (stacked) reconstructed quantities.
+    */
+    spectra.add_spectrum2d("sPi0MassPTT_Topology_All1muNphCut", Binning::Simple(10, 0, 10), Binning::Simple(50, 0, 400), kCategoryTopologyPTT_All1muNphCut, kPi0MassPTT_All1muNphCut);
+
+    /**
+     * Spectra (2D) for particles.
+    */
+    // To-do
+    
+
+    /**
+     * Dummy spectra for dumping particle-level information to a CSV log file.
+    */
+    // To-do
+
+    spectra.run();
+}

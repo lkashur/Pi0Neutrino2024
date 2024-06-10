@@ -1,0 +1,236 @@
+
+Processing /exp/icarus/app/users/lkashur/test/localProducts_larsoft_v09_78_06_e20_prof/sbnana/v09_78_06/slf7.x86_64.e20.prof/bin/load_cafana_libs.C...
+Loading libraries..........SystRegistry: Warning: systematic 'EnergyScaleMuon' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonSqrt' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonInvSqrt' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonND' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonSqrtND' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonInvSqrtND' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonUB' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonSqrtUB' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonInvSqrtUB' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonFD' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonSqrtFD' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleMuonInvSqrtFD' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadron' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronSqrt' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronInvSqrt' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronND' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronSqrtND' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronInvSqrtND' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronUB' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronSqrtUB' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronInvSqrtUB' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronFD' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronSqrtFD' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+SystRegistry: Warning: systematic 'EnergyScaleHadronInvSqrtFD' registered multiple times.
+Check you declared it with 'extern' in the .h and instantiated it in the .cxx and check for other ISysts that happen to have the same name.
+....
+Welcome to the ROOT of all evils 
+Processing pi0_analysis.C++()...
+Info in <TUnixSystem::ACLiC>: creating shared library /exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_analysis_C.so
+In file included from input_line_9:6:
+In file included from ././pi0_analysis.C:7:
+In file included from /exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/pi0_include/analysis.h:7:
+/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/pi0_include/definitions.h:339:73: warning: backslash and newline separated by space [-Wbackslash-newline-escape]
+    VARDLP_TCAT(NAME ## _All1muNphCut,vars::VAR,cuts::all_1muNph_cut); \ 
+                                                                        ^
+In file included from input_line_9:6:
+././pi0_analysis.C:27:85: warning: '/*' within block comment [-Wcomment]
+  SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/mc_run2_new_weights/flat/*.flat.root", "spectra_bnb_nu_cosmic_mc_v09_84_00_01.root", -1, 1.9213e19);
+                                                                                    ^
+In file included from <<< cling interactive line includer >>>:1:
+In file included from ././pi0_analysis.C:7:
+In file included from /exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/pi0_include/analysis.h:7:
+/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/pi0_include/definitions.h:339:73: warning: backslash and newline separated by space [-Wbackslash-newline-escape]
+    VARDLP_TCAT(NAME ## _All1muNphCut,vars::VAR,cuts::all_1muNph_cut); \ 
+                                                                        ^
+In file included from <<< cling interactive line includer >>>:1:
+././pi0_analysis.C:27:85: warning: '/*' within block comment [-Wcomment]
+  SpecContainer spectra("/pnfs/icarus/scratch/users/mueller/mc_run2_new_weights/flat/*.flat.root", "spectra_bnb_nu_cosmic_mc_v09_84_00_01.root", -1, 1.9213e19);
+                                                                                    ^
+In file included from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/analysis.h:7[m[K,
+                 from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_analysis.C:7[m[K,
+                 from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/pi0_analysis_C_ACLiC_dict.cxx:41[m[K:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/definitions.h:339:72:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+  339 |     VARDLP_TCAT(NAME ## _All1muNphCut,vars::VAR,cuts::all_1muNph_cut); \
+      |                                                                         
+In file included from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/analysis.h:9[m[K,
+                 from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_analysis.C:7[m[K,
+                 from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/pi0_analysis_C_ACLiC_dict.cxx:41[m[K:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kint vars::true_pi0_leading_photon_id(const T&) [with T = caf::Proxy<caf::SRInteractionTruthDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:383:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  383 |  [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |  [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:392:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_id[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  392 |  return [01;35m[Kleading_id[m[K;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:383:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton0_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  383 |  [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |  [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::true_pi0_leading_photon_energy(const T&) [with T = caf::Proxy<caf::SRInteractionTruthDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:445:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  445 |       return [01;35m[Kleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kint vars::true_pi0_subleading_photon_id(const T&) [with T = caf::Proxy<caf::SRInteractionTruthDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:421:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  421 |  [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |  [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:430:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_id[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  430 |  return [01;35m[Ksubleading_id[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:421:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton0_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  421 |  [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |  [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::true_pi0_subleading_photon_energy(const T&) [with T = caf::Proxy<caf::SRInteractionTruthDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:460:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksubleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  460 |  return [01;35m[Ksubleading_energy[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kint vars::pi0_subleading_shower_id(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:703:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  703 |       [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |       [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:712:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_id[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  712 |       return [01;35m[Ksubleading_id[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:703:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton0_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  703 |       [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |       [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::pi0_subleading_shower_energy(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:756:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksubleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  756 |       return [01;35m[Ksubleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In static member function ‘[01m[Kstatic _Res std::_Function_handler<_Res(_ArgTypes ...), _Functor>::_M_invoke(const std::_Any_data&, _ArgTypes&& ...) [with _Res = std::vector<double>; _Functor = ana::<lambda(const SRSpillProxy*)>; _ArgTypes = {const caf::Proxy<caf::StandardRecord>*}][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:747:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksubleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  747 |       double [01;35m[Ksubleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kint vars::pi0_leading_shower_id(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:655:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  655 |       [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |       [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:664:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_id[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  664 |       return [01;35m[Kleading_id[m[K;
+      |              [01;35m[K^~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:655:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton0_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  655 |       [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |       [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::pi0_leading_shower_energy(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:734:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  734 |       return [01;35m[Kleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In static member function ‘[01m[Kstatic _Res std::_Function_handler<_Res(_ArgTypes ...), _Functor>::_M_invoke(const std::_Any_data&, _ArgTypes&& ...) [with _Res = std::vector<double>; _Functor = ana::<lambda(const SRSpillProxy*)>; _ArgTypes = {const caf::Proxy<caf::StandardRecord>*}][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:725:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  725 |       double [01;35m[Kleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::pi0_mass(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:921:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  921 |       double mass = sqrt([01;35m[K2*ph0_energy*ph1_energy[m[K*(1-cos(theta_r)));
+      |                          [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:921:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksubleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  921 |       double mass = sqrt([01;35m[K2*ph0_energy[m[K*ph1_energy*(1-cos(theta_r)));
+      |                          [01;35m[K~^~~~~~~~~~~[m[K
+In file included from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/analysis.h:7[m[K,
+                 from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_analysis.C:7[m[K,
+                 from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/pi0_analysis_C_ACLiC_dict.cxx:41[m[K:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/definitions.h:339:72:[m[K [01;35m[Kwarning: [m[Kbackslash and newline separated by space
+  339 |     VARDLP_TCAT(NAME ## _All1muNphCut,vars::VAR,cuts::all_1muNph_cut); \
+      |                                                                         
+In file included from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/analysis.h:9[m[K,
+                 from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_analysis.C:7[m[K,
+                 from [01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/pi0_analysis_C_ACLiC_dict.cxx:41[m[K:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kint vars::true_pi0_leading_photon_id(const T&) [with T = caf::Proxy<caf::SRInteractionTruthDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:383:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  383 |  [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |  [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:392:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_id[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  392 |  return [01;35m[Kleading_id[m[K;
+      |         [01;35m[K^~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:383:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton0_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  383 |  [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |  [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::true_pi0_leading_photon_energy(const T&) [with T = caf::Proxy<caf::SRInteractionTruthDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:445:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  445 |       return [01;35m[Kleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kint vars::true_pi0_subleading_photon_id(const T&) [with T = caf::Proxy<caf::SRInteractionTruthDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:421:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  421 |  [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |  [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:430:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_id[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  430 |  return [01;35m[Ksubleading_id[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:421:2:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton0_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  421 |  [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |  [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::true_pi0_subleading_photon_energy(const T&) [with T = caf::Proxy<caf::SRInteractionTruthDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:460:9:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksubleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  460 |  return [01;35m[Ksubleading_energy[m[K;
+      |         [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kint vars::pi0_subleading_shower_id(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:703:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  703 |       [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |       [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:712:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_id[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  712 |       return [01;35m[Ksubleading_id[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:703:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton0_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  703 |       [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |       [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::pi0_subleading_shower_energy(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:756:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksubleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  756 |       return [01;35m[Ksubleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In static member function ‘[01m[Kstatic _Res std::_Function_handler<_Res(_ArgTypes ...), _Functor>::_M_invoke(const std::_Any_data&, _ArgTypes&& ...) [with _Res = std::vector<double>; _Functor = ana::<lambda(const SRSpillProxy*)>; _ArgTypes = {const caf::Proxy<caf::StandardRecord>*}][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:747:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksubleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  747 |       double [01;35m[Ksubleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kint vars::pi0_leading_shower_id(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:655:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  655 |       [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |       [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:664:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton1_id[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  664 |       return [01;35m[Kleading_id[m[K;
+      |              [01;35m[K^~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:655:7:[m[K [01;35m[Kwarning: [m[K‘[01m[Kphoton0_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  655 |       [01;35m[Kif[m[K(photon0_energy > photon1_energy)
+      |       [01;35m[K^~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::pi0_leading_shower_energy(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:734:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  734 |       return [01;35m[Kleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In static member function ‘[01m[Kstatic _Res std::_Function_handler<_Res(_ArgTypes ...), _Functor>::_M_invoke(const std::_Any_data&, _ArgTypes&& ...) [with _Res = std::vector<double>; _Functor = ana::<lambda(const SRSpillProxy*)>; _ArgTypes = {const caf::Proxy<caf::StandardRecord>*}][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:725:14:[m[K [01;35m[Kwarning: [m[K‘[01m[Kleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  725 |       double [01;35m[Kleading_energy[m[K;
+      |              [01;35m[K^~~~~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:[m[K In function ‘[01m[Kdouble vars::pi0_mass(const T&) [with T = caf::Proxy<caf::SRInteractionDLP>][m[K’:
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:921:38:[m[K [01;35m[Kwarning: [m[K‘[01m[Kleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  921 |       double mass = sqrt([01;35m[K2*ph0_energy*ph1_energy[m[K*(1-cos(theta_r)));
+      |                          [01;35m[K~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/exp/icarus/app/users/lkashur/test/icarus_numu_ml_selection/./pi0_include/variables.h:921:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Ksubleading_energy[m[K’ may be used uninitialized in this function [[01;35m[K-Wmaybe-uninitialized[m[K]
+  921 |       double mass = sqrt([01;35m[K2*ph0_energy[m[K*ph1_energy*(1-cos(theta_r)));
+      |                          [01;35m[K~^~~~~~~~~~~[m[K
+Filling 0 spectra from 27091 files matching '/pnfs/icarus/scratch/users/mueller/physics_run2_actual_new_weights/onbeam/flat/*.flat.root'...
+1.59637e+19 POT over 4255908 readouts

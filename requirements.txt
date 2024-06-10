@@ -1,0 +1,9 @@
+numpy
+pandas
+pyyaml
+uproot
+matplotlib
+h5py
+toml
+tqdm
+awkward

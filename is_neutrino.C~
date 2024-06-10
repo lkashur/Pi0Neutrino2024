@@ -1,0 +1,19 @@
+void is_neutrino()
+{
+ 
+  TFile *myFile = TFile::Open("/pnfs/icarus/scratch/users/mueller/systematics/sample_cv.flat.root");
+  TTreeReader myReader("recTree", myFile);
+  TH1F *hist = new TH1F("hist","",10,0.0,10.0);
+
+  TTreeReaderArray<float> is_nu(myReader, "rec.dlp_true.is_neutrino");
+  while (myReader.Next())
+    {
+
+      for (int i = 0; i < is_nu.GetSize(); i++)
+        cout << is_nu[i] << endl;
+
+      
+    }
+  
+
+}
